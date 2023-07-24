@@ -37,9 +37,20 @@ body {
   background: linear-gradient(
     0deg,
     rgba(46, 43, 233, 1) 35%,
-    rgba(102, 102, 255, 1) 100%
+    rgba(120, 87, 255, 1) 100%
   );
   color: hsl(241, 100%, 89%);
   padding: 2rem 3rem;
   border-radius: 0 0 1.5rem 1.5rem;
+}
+
+.card__score-box__score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 50%;
+  padding: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
